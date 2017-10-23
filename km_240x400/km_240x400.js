@@ -126,7 +126,7 @@ p.nominalBounds = new cjs.Rectangle(-19.5,-45,39,90);
 
 	// Layer 1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.rf(["#E9EE5D","#FF4800"],[0.051,0.925],0,0,0,0,0,111.5).s().p("AsIMJQlClCAAnHQAAnGFClCQFClCHGAAQHHAAFCFCQFDFCgBHGQABHHlDFCQlCFDnHgBQnGABlClDg");
+	this.shape.graphics.rf(["#E9EE5D","#FF7E00"],[0.051,1],0,0,0,0,0,111.5).s().p("AsIMJQlClCAAnHQAAnGFClCQFClCHGAAQHHAAFCFCQFDFCgBHGQABHHlDFCQlCFDnHgBQnGABlClDg");
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
